@@ -7,6 +7,10 @@ This project was developed as part of the PAR (Parallelism) course at the FIB - 
 
 [![GitHub followers](https://img.shields.io/github/followers/ArnauCS03?label=ArnauCS03)](https://github.com/ArnauCS03) &nbsp;&nbsp; [![GitHub followers](https://img.shields.io/github/followers/dgarevalo?label=dgarevalo)](https://github.com/dgarevalo) <br><br>
 
+---
+>[!NOTE]  
+>The codes are in the `src` folder, the statment is called *lab_practice_PAR.pdf* and our results are presented in *Lab4_report_PAR*. <br><br>
+
 ## Iterative task decomposition
 
 The **iterative task decomposition** approach involves dividing the Mandelbrot set computation into smaller tasks, which are then processed in parallel. The main goal is to exploit parallelism while handling dependencies and data sharing to avoid concurrency issues. To improve efficiency, strategies like finer grain tasks were employed. This involves breaking down the computation into even smaller, more manageable tasks that can be distributed across multiple threads.  <br><br>
@@ -65,5 +69,17 @@ sbatch submit-omp.sh mandel-omp-rec 20
 ## Conclusion
 
 This project successfully demonstrates the implementation and analysis of parallel task decomposition techniques for the Mandelbrot set computation. The recursive task decomposition, in particular, showed superior performance and scalability, making it a valuable approach for parallel computations in similar applications.
+<br><br>
+
+---
+
+## Screenshots
+
+![Screenshot from 2024-07-09 17-55-39](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/1bdccf91-75ef-4561-bc23-7514a540d223)
+
+![Screenshot from 2024-07-09 17-56-05](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/7b2aafa9-034f-4342-b7cc-8a5237564362)
+
+![Screenshot from 2024-07-09 17-56-41](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/2d1dd318-4fc4-45a2-8e7f-17c3c1d879d4)
+
 <br><br>
 
