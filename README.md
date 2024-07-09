@@ -58,10 +58,10 @@ Compile the Code:
 make
 ```
 
-### Run the Parallel Code: (We used the Boada Supercomputer)
+### Run or submit the Parallel Code: (We used the Boada Supercomputer for the computation)
 ```
+./mandel-seq-iter [-o -h -d -i maxiter -c x0 y0 -s size]
 sbatch submit-omp.sh mandel-omp-iter 20
-sbatch submit-omp.sh mandel-omp-rec 20 
 ```
 
 <br><br>
@@ -75,11 +75,15 @@ This project successfully demonstrates the implementation and analysis of parall
 
 ## Screenshots
 
-![Screenshot from 2024-07-09 17-55-39](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/1bdccf91-75ef-4561-bc23-7514a540d223)
+<p align="center">
+  <img src="https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/1bdccf91-75ef-4561-bc23-7514a540d223" width="400" height="400"/> 
+</p>
 
 ![Screenshot from 2024-07-09 17-56-05](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/7b2aafa9-034f-4342-b7cc-8a5237564362)
 
-![Screenshot from 2024-07-09 17-56-41](https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/2d1dd318-4fc4-45a2-8e7f-17c3c1d879d4)
+<p align="center">
+   <img src="https://github.com/ArnauCS03/mandelbrot-set-omp-parallelization/assets/95536223/2d1dd318-4fc4-45a2-8e7f-17c3c1d879d4" width="400" height="500"/> 
+</p>
 
 <br><br>
 
